@@ -2,9 +2,13 @@
 
 A proof of concept how to use WebRTC to build an interactive speech recognition system.
 
-![](wave.png)
+![](schema.png)
 
-## Dependencies
+The web page displays a video with an audio signal, where small black dots indicate recognised words.
+
+![](demo.gif)
+
+## Components
 
 1. WebRTC
 2. uWebSockets
@@ -14,3 +18,7 @@ A proof of concept how to use WebRTC to build an interactive speech recognition 
 6. OSMesa
 7. GLU
 8. rapidjson
+
+## TODO
+- [ ] Display recognised words
+- [ ] Multi-user connection
